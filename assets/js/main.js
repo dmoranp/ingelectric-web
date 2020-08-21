@@ -1,5 +1,5 @@
 /*--------------------------
-    Project Name: Promina
+    Project Name: Ingelectric
     Version: 1.0
     Author: 7oorof
     Devloped by: Ahmed Abdallah (a.abdallah999@gmail.com)
