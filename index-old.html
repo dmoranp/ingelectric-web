@@ -7,14 +7,14 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <meta name="description" content="Ingelectric - Ingeniería Eléctrica, Electrónica y Mecánica">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
-<link rel="manifest" href="assets/images/favicon/site.webmanifest">
-<link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-<link rel="shortcut icon" href="assets/images/favicon/favicon.ico">
-<meta name="msapplication-TileColor" content="#2d89ef">
-<meta name="msapplication-config" content="assets/images/favicon/browserconfig.xml">
-<meta name="theme-color" content="#ffffff">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+  <link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="assets/images/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#2d89ef">
+  <meta name="msapplication-config" content="assets/images/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
   <title>Ingelectric - Ingeniería Eléctrica, Electrónica y Mecánica</title>
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Barlow:400,500,600,700%7cRoboto:400,500,700&display=swap">
@@ -35,7 +35,8 @@
       <nav class="navbar navbar-expand-lg sticky-navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
-            <img src="assets/images/logo/logo-light.svg" class="logo-light" alt="logo" width="85%"> <img src="assets/images/logo/logo-dark.svg" class="logo-dark" alt="logo" width="85%">
+            <img src="assets/images/logo/logo-light.svg" class="logo-light" alt="logo" width="85%"> 
+            <img src="assets/images/logo/logo-dark.svg" class="logo-dark" alt="logo" width="85%">
           </a>
           <button class="navbar-toggler" type="button">
             <span class="menu-lines"><span></span></span>
@@ -43,7 +44,7 @@
           <div class="collapse navbar-collapse" id="mainNavigation">
             <ul class="navbar-nav">
               <li class="nav__item with-dropdown">
-                <a href="index.html" class="dropdown-toggle nav__item-link">Inicio</a>
+                <a href="index.html" class="dropdown-toggle nav__item-link active">Inicio</a>
                 <i class="fa fa-angle-down" data-toggle="dropdown"></i>
                 <ul class="dropdown-menu">
                   <li class="nav__item"><a href="index.html" class="nav__item-link">Inicio Moderm</a></li>
@@ -56,7 +57,7 @@
                 </ul><!-- /.dropdown-menu -->
               </li><!-- /.nav-item -->
               <li class="nav__item with-dropdown">
-                <a href="about-us.html" class="dropdown-toggle nav__item-link active">Nosotros</a>
+                <a href="about-us.html" class="dropdown-toggle nav__item-link">Nosotros</a>
                 <i class="fa fa-angle-down" data-toggle="dropdown"></i>
                 <ul class="dropdown-menu">
                   <li class="nav__item"><a href="about-us.html" class="nav__item-link">About Us</a></li>
@@ -141,96 +142,204 @@
       </nav><!-- /.navabr -->
     </header><!-- /.Header -->
 
-    <!-- ========================
-       page title 
-    =========================== -->
-    <section class="page-title page-title-layout1 bg-overlay bg-overlay-2 bg-parallax">
-      <div class="bg-img"><img src="assets/images/page-titles/1.jpg" alt="background"></div>
+    <!-- ============================
+        Slider
+    ============================== -->
+    <section class="slider slider-layout1">
+      <div class="slick-carousel carousel-arrows-light m-slides-0"
+        data-slick='{"slidesToShow": 1, "arrows": true, "dots": true, "speed": 700,"fade": true,"cssEase": "linear"}'>
+        <div class="slide-item align-v-h bg-overlay bg-overlay-2">
+          <div class="bg-img"><img src="assets/images/sliders/1.jpg" alt="slide img"></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12 col-xl-9">
+                <div class="slide__content">
+                  <h2 class="slide__title">Provide Effective Building Solutions!</h2>
+                  <p class="slide__desc">A leading developer of A-grade commercial, industrial and residential projects
+                    in USA. Since its foundation the company has doubled its turnover year on year, with its staff
+                    numbers swelling accordingly. </p>
+                  <a href="services.html" class="btn btn__primary btn__icon btn__lg mr-30">
+                    <span>Our Servicios</span><i class="icon-arrow-right"></i>
+                  </a>
+                  <a href="about-us.html" class="btn btn__white">More About Us!</a>
+                </div><!-- /.slide-content -->
+              </div><!-- /.col-xl-9 -->
+            </div><!-- /.row -->
+          </div><!-- /.container -->
+        </div><!-- /.slide-item -->
+        <div class="slide-item align-v-h bg-overlay">
+          <div class="bg-img"><img src="assets/images/sliders/2.jpg" alt="slide img"></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12 col-xl-9">
+                <div class="slide__content">
+                  <h2 class="slide__title">Bigger, Better, <br> Faster & Stronger</h2>
+                  <p class="slide__desc">A leading developer of A-grade commercial, industrial and residential projects
+                    in USA. Since its foundation the company has doubled its turnover year on year, with its staff
+                    numbers swelling accordingly. </p>
+                  <a href="services.html" class="btn btn__primary btn__icon btn__lg mr-30">
+                    <span>Our Servicios</span><i class="icon-arrow-right"></i>
+                  </a>
+                  <a href="about-us.html" class="btn btn__white">More About Us!</a>
+                </div><!-- /.slide-content -->
+              </div><!-- /.col-xl-9 -->
+            </div><!-- /.row -->
+          </div><!-- /.container -->
+        </div><!-- /.slide-item -->
+      </div><!-- /.carousel -->
+    </section><!-- /.slider -->
+
+    <!-- ==========================
+       Contact Info
+    ============================ -->
+    <section class="contact-info-layout2 pt-60 pb-30">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
-            <span class="pagetitle__subheading">World's Leading Industry Corporation!</span>
-            <h1 class="pagetitle__heading">Best A Grade Commercial & Residential Servicios</h1>
-            <a href="projects-grid.html" class="btn btn__white btn__bordered btn__icon">
-              <span>Latest Projects</span><i class="icon-arrow-right"></i>
-            </a>
-          </div><!-- /.col-xl-6 -->
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </section><!-- /.page-title -->
-
-    <!-- ========================
-      About Layout 2
-    =========================== -->
-    <section class="about-layout2">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="text-block">
-            <div class="heading-layout2 mb-30">
-              <span class="heading__subtitle">Leading The Way In Building And Civil Construction</span>
-              <h2 class="heading__title">Bigger, Better, Faster And Stronger Projects Than Ever!!</h2>
-              <p class="heading__desc mb-30 mt-40">Yet those that embrace change are thriving, building bigger, better,
-                faster, and
-                stronger products than ever before. You are helping to lead the charge; we can help you build on your
-                past and prepare future.</p>
-              <p class="heading__desc">The world is changing faster than ever before, Ingelectric industries are
-                threatened
-                as technology disrupts and software.</p>
-            </div><!-- /heading -->
-            <ul class="list-items list-unstyled mb-40">
-              <li>Quality Control System</li>
-              <li>Unrivalled workmanship</li>
-              <li>100% Satisfaction Guarantee</li>
-              <li>Accurate Testing Processes</li>
-              <li>Highly Professional Staff</li>
-              <li>Professional and Qualified</li>
-            </ul>
-            <a href="projects-grid.html" class="btn btn__secondary btn__icon">
-              <span>Latest Projects</span><i class="icon-arrow-right"></i>
-            </a>
-          </div><!-- /.col-xl-7 -->
-          <div class="imgs-block mt-50">
-            <div class="about__img">
-              <img src="assets/images/about/2.png" alt="about" class="img-fluid w-100">
-            </div><!-- /.about-img -->
-            <div class="video__box">
-              <a class="video__btn video__btn-white popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
-                <div class="video__player">
-                  <span class="video__player-animation"></span>
-                  <span class="video__player-animation video__player-animation-2"></span>
-                  <i class="fa fa-play"></i>
-                </div>
-              </a>
-            </div><!-- /.video__box -->
-          </div><!-- /.col-xl-5 -->
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </section><!-- /.About Layout 2 -->
-
-    <!-- =========================
-       Banner layout 1
-      =========================== -->
-    <section class="banner-layout1 p-0">
-      <div class="container-fluid col-padding-0 bg-theme">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-6 background-banner">
-            <div class="bg-img"><img src="assets/images/banners/1.jpg" alt="background"></div>
+        <div class="row align-items-end">
+          <!-- Contact panel #1 -->
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="contact-info-box d-flex align-items-center">
+              <div class="contact__info-box-icon">
+                <i class="icon-envelope"></i>
+              </div>
+              <div class="contact__info-box-content">
+                <h4 class="contact__info-box-title">Quick Contact</h4>
+                <ul class="contact__info-list list-unstyled">
+                  <li>Email: <a href="mailto:Ingelectric@7oroof.com">Ingelectric@7oroof.com</a></li>
+                  <li>Phone: <a href="tel:+593983347064"> 098 334 7064</a></li>
+                </ul><!-- /.contact__info-list -->
+              </div><!-- /.contact__info-box-content -->
+            </div><!-- /.contact-info-box -->
+          </div><!-- /.col-lg-3 -->
+          <!-- Contact panel #2 -->
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="contact-info-box d-flex align-items-center">
+              <div class="contact__info-box-icon">
+                <i class="icon-location"></i>
+              </div>
+              <div class="contact__info-box-content">
+                <h4 class="contact__info-box-title">Our Location</h4>
+                <ul class="contact__info-list list-unstyled">
+                  <li>2307 Beverley Rd Brooklyn, New York 11226 US.</li>
+                </ul><!-- /.contact__info-list -->
+              </div><!-- /.contact__info-box-content -->
+            </div><!-- /.contact-info-box -->
+          </div><!-- /.col-lg-3 -->
+          <!-- Contact panel #3 -->
+          <div class="col-sm-12 col-md-12 col-lg-6">
             <div class="cta__banner">
-              <div class="bg-img"><img src="assets/images/backgrounds/1.jpg" alt="background"></div>
-              <h5 class="cta__title">A Leading Developer Of First
-                Grade Commercial & Projects! </h5>
-              <p class="cta__desc">Today Promin has over 4,000 professionals on its payroll All Over The World.</p>
-              <a href="#" class="btn btn__primary btn__link">
+              <h5 class="cta__title color-white">A Leading Developer Of A Grade
+                Commercial & Residential Projects</h5>
+              <p class="cta__desc color-gray">Today Promin has over 4,000 professionals on its payroll All Over The
+                World.</p>
+              <a href="services.html" class="btn btn__primary btn__link color-white">
                 <span>Learn More</span> <i class="icon-arrow-right"></i>
               </a>
             </div><!-- /.cta__banner -->
           </div><!-- /.col-lg-6 -->
-          <div class="col-sm-12 col-md-12 col-lg-6">
-            <div class="inner-padding">
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.Contact Info -->
+
+    <!-- ========================
+        Servicios Layout 2
+    =========================== -->
+    <section class="services-layout2 pt-120 bg-gray">
+      <div class="services-bg">
+        <div class="bg-img"><img src="assets/images/backgrounds/map.png" alt="background"></div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
+            <div class="heading text-center mb-40">
+              <span class="heading__subtitle">The Best A Grade Commercial & Residential Servicios</span>
+              <h2 class="heading__title">High Quality Construction Solutions
+                For Residentials & Industries!</h2>
+            </div><!-- /.heading -->
+          </div><!-- /.col-lg-10 -->
+        </div><!-- /.row -->
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="service-item">
+              <div class="service__content">
+                <div class="service__icon">
+                  <i class="icon-brick-wall"></i>
+                </div><!-- /.service__icon -->
+                <h4 class="service__title">Architecture <br> & Building</h4>
+                <p class="service__desc">Architecture is both the process and the product of planning, and constructing
+                  buildings or any other structures.</p>
+                <a href="services-single-service.html" class="btn btn__secondary btn__link">
+                  <span>Read More</span>
+                  <i class="icon-arrow-right"></i>
+                </a>
+              </div><!-- /.service-content -->
+              <div class="service__overlay bg-overlay bg-overlay-theme">
+                <div class="bg-img"><img src="assets/images/services/service-overlay.png" alt="background"></div>
+              </div><!-- /.service__overlay -->
+            </div><!-- /.service-item -->
+          </div><!-- /.col-lg-4 -->
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="service-item">
+              <div class="service__content">
+                <div class="service__icon">
+                  <i class="icon-engineer3"></i>
+                </div><!-- /.service__icon -->
+                <h4 class="service__title">Construction <br> Consultants</h4>
+                <p class="service__desc">Given the increasing complexity of many construction projects it is becoming
+                  more common that a consultant.</p>
+                <a href="services-single-service.html" class="btn btn__secondary btn__link">
+                  <span>Read More</span>
+                  <i class="icon-arrow-right"></i>
+                </a>
+              </div><!-- /.service-content -->
+              <div class="service__overlay bg-overlay bg-overlay-theme">
+                <div class="bg-img"><img src="assets/images/services/service-overlay.png" alt="background"></div>
+              </div><!-- /.service__overlay -->
+            </div><!-- /.service-item -->
+          </div><!-- /.col-lg-4 -->
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="service-item">
+              <div class="service__content">
+                <div class="service__icon">
+                  <i class="icon-building"></i>
+                </div><!-- /.service__icon -->
+                <h4 class="service__title">Construction<br> Management</h4>
+                <p class="service__desc">Professional service uses specialized, project management techniques to oversee
+                  the planning, design.</p>
+                <a href="services-single-service.html" class="btn btn__secondary btn__link">
+                  <span>Read More</span>
+                  <i class="icon-arrow-right"></i>
+                </a>
+              </div><!-- /.service-content -->
+              <div class="service__overlay bg-overlay bg-overlay-theme">
+                <div class="bg-img"><img src="assets/images/services/service-overlay.png" alt="background"></div>
+              </div><!-- /.service__overlay -->
+            </div><!-- /.service-item -->
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+            <p class="text__link">Offering high quality construction solutions. <a href="contacs.html">Build Your Dream
+                Now!</a>
+            </p>
+          </div><!-- /.col-lg-12 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.Servicios Layout 2 -->
+
+    <!-- =========================
+       Banner layout 4
+      =========================== -->
+    <section class="banner-layout4 mt--100 pb-0">
+      <div class="container-fluid col-padding-0">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
+            <div class="inner-padding bg-theme ">
               <div class="heading-layout2 heading-light mb-40">
+                <p class="heading__subtitle">World's Leading Industry Corporation!</p>
                 <h2 class="heading__title">Best A Gra de Commercial & Residential Servicios</h2>
-                <p class="heading__desc">Building bigger, better, faster & stronger products than ever before. We can
-                  help you build on your past and prepare for future.</p>
+                <p class="heading__desc">The world is changing faster than ever before, business is no exception, yet
+                  those that embrace change are thriving, building bigger, better, faster & stronger products than ever
+                  before. We can help you build on your past and prepare for future.</p>
               </div><!-- /.heading -->
               <div class="row fancybox-light">
                 <!-- fancybox item #1 -->
@@ -260,19 +369,33 @@
                   </div><!-- /.fancybox-item -->
                 </div><!-- /.col-lg-6 -->
               </div><!-- /.row -->
-              <a href="request-quote.html" class="btn btn__white btn__bordered btn__icon box-shadow-none">
-                <span>Request A Quote</span><i class="icon-arrow-right"></i>
-              </a>
             </div>
-          </div><!-- /.col-lg-6 -->
+          </div><!-- /.col-xl-6 -->
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 background-banner">
+            <div class="bg-img">
+              <img src="assets/images/banners/2.jpg" alt="banner">
+            </div>
+            <div class="video__box">
+              <a class="video__btn video__btn-white popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
+                <div class="video__player">
+                  <span class="video__player-animation"></span>
+                  <span class="video__player-animation video__player-animation-2"></span>
+                  <i class="fa fa-play"></i>
+                </div>
+              </a>
+              <div class="video__box-text">
+                <span class="color-white">Watch Our Video!</span>
+              </div>
+            </div><!-- /.video__box -->
+          </div><!-- /.col-xl-6 -->
         </div><!-- /.row -->
       </div><!-- /.container -->
-    </section><!-- /.Banner layout 1 -->
+    </section><!-- /.Banner layout 4 -->
 
     <!-- =========================== 
       portfolio standard carousel
     ============================= -->
-    <section class="portfolio-standard portfolio-standard-carousel">
+    <section class="portfolio-standard portfolio-standard-carousel pt-120 pb-60">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
@@ -281,11 +404,11 @@
               <h2 class="heading__title">Nuestros Trabajos Recientes</h2>
             </div><!-- /.heading -->
           </div><!-- /.col-lg-6 -->
-        </div>
+        </div><!-- /.row -->
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12">
             <div class="slick-carousel"
-              data-slick='{"slidesToShow": 3, "slidesToScroll": 3, "arrows": false, "dots": true, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 2}}, {"breakpoint": 767, "settings": {"slidesToShow": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}]}'>
+              data-slick='{"slidesToShow": 3, "slidesToScroll": 1, "arrows": false, "dots": true, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 2}}, {"breakpoint": 767, "settings": {"slidesToShow": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}]}'>
               <!-- portfolio item #1 -->
               <div class="portfolio-item">
                 <div class="portfolio__img">
@@ -472,8 +595,8 @@
       <div class="bg-img background-size-auto"><img src="assets/images/backgrounds/1.jpg" alt="background"></div>
 
       <!-- ==========================
-        contact layout 2
-    =========================== -->
+        contact layout 1
+      =========================== -->
       <section class="contact-layout2 p-0">
         <div class="container">
           <div class="row">
@@ -495,7 +618,7 @@
                       </ul><!-- /.contact__info-list -->
                     </div><!-- /.contact-info-box -->
                   </div><!-- /.contact__panel-info-top -->
-                  <div class="contact__panel-info-bottom">
+                  <div class="contact__panel-info-bottom bg-theme2">
                     <strong class="contact__panel-info-title">We will get back to you within 24 hours, or call us
                       everyday, 09:00 AM - 12:00 PM</strong>
                     <div class="contact__number d-flex align-items-center">
@@ -507,48 +630,57 @@
                 <form method="post" action="assets/php/contact.php" id="contactForm" class="contact__panel-form">
                   <div class="row">
                     <div class="col-sm-12">
-                      <h4 class="contact__panel-title">Get In Touch</h4>
+                      <h4 class="contact__panel-title">Request A Quote</h4>
                       <p class="contact__panel-desc mb-40">Complete control over products allows us to ensure our
                         customers receive the best quality prices and service. We take great pride in everything that we
                         do in our factory.</p>
                     </div>
-                    <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
                       <div class="form-group">
                         <input type="text" class="form-control" placeholder="Name" id="contact-name" name="contact-name"
                           required>
                       </div>
                     </div><!-- /.col-lg-6 -->
-                    <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
                       <div class="form-group">
                         <input type="email" class="form-control" placeholder="Email" id="contact-email"
                           name="contact-email" required>
                       </div>
                     </div><!-- /.col-lg-6 -->
-                    <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
                       <div class="form-group">
                         <input type="text" class="form-control" placeholder="Phone" id="contact-Phone"
                           name="contact-phone" required>
                       </div>
                     </div><!-- /.col-lg-6 -->
-                    <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
                       <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Website" id="contact-subject"
-                          name="contact-subject" required>
+                        <select class="form-control" style="display: none;">
+                          <option>select your industry</option>
+                          <option>Petroleum &amp; Gas Energy</option>
+                          <option>Construction &amp; Engineering</option>
+                          <option>Mechanical Engineering</option>
+                        </select>
                       </div>
                     </div><!-- /.col-lg-6 -->
                     <div class="col-sm-12 col-md-12 col-lg-12">
                       <div class="form-group">
-                        <textarea class="form-control" placeholder="Additional Details!" placeholder="Message"
-                          id="contact-messgae" name="contact-messgae" required></textarea>
+                        <textarea class="form-control" placeholder="Additional Details!" id="contact-messgae"
+                          name="contact-messgae" required></textarea>
                       </div>
                     </div><!-- /.col-lg-12 -->
-                    <div class="col-sm-12 col-md-12 col-lg-12">
-                      <button type="submit" class="btn btn__primary btn__block  btn__lg">
+                    <div class="col-sm-12 col-md-12 col-lg-12 d-flex flex-wrap align-items-center">
+                      <button type="submit" class="btn btn__secondary mr-40">
                         <span class="mx-2">Submit Request</span><i class="icon-arrow-right mx-2"></i>
                       </button>
-                      <div class="contact-result"></div>
+                      <div class="form-group input-radio my-3">
+                        <label class="label-radio">I accept the privacy and terms.
+                          <input type="checkbox" checked="">
+                          <span class="radio-indicator"></span>
+                        </label>
+                      </div>
                     </div><!-- /.col-lg-12 -->
-                  </div><!-- /.row -->
+                  </div>
                 </form>
               </div><!-- /.contact__panel -->
             </div><!-- /.col-lg-12 -->
@@ -558,8 +690,8 @@
 
       <!-- ========================= 
       Testimonials layout 1
-   =========================  -->
-      <section class="testimonials testimonials-layout1">
+      =========================  -->
+      <section class="testimonials testimonials-layout1 extra-padding">
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12">
@@ -632,8 +764,209 @@
           </div><!-- /.row -->
         </div><!-- /.container -->
       </section><!-- /.testimonials 1 -->
-
     </div>
+
+    <!-- ======================
+      Blog carousel
+    ========================= -->
+    <section class="blog-carousel pt-0 pb-50 mt--200 z-index-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="heading heading-layout3 mb-40">
+              <h2 class="heading__title">Recent Articles</h2>
+            </div><!-- /.heading -->
+          </div><!-- /.col-lg-6 -->
+        </div><!-- /.row -->
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <div class="slick-carousel"
+              data-slick='{"slidesToShow": 3, "slidesToScroll": 3, "arrows": true, "dots": false, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 2}}, {"breakpoint": 767, "settings": {"slidesToShow": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}]}'>
+              <!-- Blog Item #1 -->
+              <div class="blog-item">
+                <div class="blog__img">
+                  <a href="#">
+                    <img src="assets/images/blog/grid/1.jpg" alt="blog image">
+                  </a>
+                </div><!-- /.blog-img -->
+                <div class="blog__content">
+                  <div class="blog__meta">
+                    <div class="blog__meta-cat">
+                      <a href="#">Oil & Gas</a><a href="#">Insights</a>
+                    </div><!-- /.blog-meta-cat -->
+                  </div><!-- /.blog-meta -->
+                  <h4 class="blog__title"><a href="#">Importers achieve cost savings through the First Sale rule!</a>
+                  </h4>
+                  <span class="blog__meta-date">Jan 20, 2020</span>
+                  <p class="blog__desc">The trade war currently ensuing between the US and several nations around the
+                    globe, most fiercely with China, shows no signs of the first set of tariffs levied against solar...
+                  </p>
+                  <a href="blog-single-post.html" class="btn btn__secondary btn__link">
+                    <span>Read More</span>
+                    <i class="icon-arrow-right"></i>
+                  </a>
+                </div><!-- /.blog-content -->
+              </div><!-- /.blog-item -->
+              <!-- Blog Item #2 -->
+              <div class="blog-item">
+                <div class="blog__img">
+                  <a href="#">
+                    <img src="assets/images/blog/grid/2.jpg" alt="blog image">
+                  </a>
+                </div><!-- /.blog-img -->
+                <div class="blog__content">
+                  <div class="blog__meta">
+                    <div class="blog__meta-cat">
+                      <a href="#">Industry</a><a href="#">Construction</a>
+                    </div><!-- /.blog-meta-cat -->
+                  </div><!-- /.blog-meta -->
+                  <h4 class="blog__title"><a href="#">Cargo flow through better supply chain visibility, control.</a>
+                  </h4>
+                  <span class="blog__meta-date">Oct 18, 2020</span>
+                  <p class="blog__desc">Global provider connected products for consumers, and enterprises worldwide,
+                    supply chain control is everything, provide visibility and traceability needed for...</p>
+                  <a href="blog-single-post.html" class="btn btn__secondary btn__link">
+                    <span>Read More</span>
+                    <i class="icon-arrow-right"></i>
+                  </a>
+                </div><!-- /.blog-content -->
+              </div><!-- /.blog-item -->
+              <!-- Blog Item #3 -->
+              <div class="blog-item">
+                <div class="blog__img">
+                  <a href="#">
+                    <img src="assets/images/blog/grid/3.jpg" alt="blog image">
+                  </a>
+                </div><!-- /.blog-img -->
+                <div class="blog__content">
+                  <div class="blog__meta">
+                    <div class="blog__meta-cat">
+                      <a href="#">Engineering</a><a href="#">Distribution</a>
+                    </div><!-- /.blog-meta-cat -->
+                  </div><!-- /.blog-meta -->
+                  <h4 class="blog__title"><a href="#">Importance of specialized focus in portfolio, Oil & Gas</a></h4>
+                  <span class="blog__meta-date">Jan 20, 2020</span>
+                  <p class="blog__desc">Our team provides highly skilled & experienced portfolio managers who know the
+                    intricacies of this vertical and focus on providing innovative solutions in Oil & Gas...</p>
+                  <a href="blog-single-post.html" class="btn btn__secondary btn__link">
+                    <span>Read More</span>
+                    <i class="icon-arrow-right"></i>
+                  </a>
+                </div><!-- /.blog-content -->
+              </div><!-- /.blog-item -->
+              <!-- Blog Item #4 -->
+              <div class="blog-item">
+                <div class="blog__img">
+                  <a href="#">
+                    <img src="assets/images/blog/grid/4.jpg" alt="blog image">
+                  </a>
+                </div><!-- /.blog-img -->
+                <div class="blog__content">
+                  <div class="blog__meta">
+                    <div class="blog__meta-cat">
+                      <a href="#">News</a><a href="#">Industry</a>
+                    </div><!-- /.blog-meta-cat -->
+                  </div><!-- /.blog-meta -->
+                  <h4 class="blog__title"><a href="#">Changes to our Trade Credit Policy and Procedures</a></h4>
+                  <span class="blog__meta-date">Oct 24, 2017</span>
+                  <p class="blog__desc">The Atradius platform will provide us with a much deeper pool of research to
+                    assist with assessment of new credit applications and credit limits...</p>
+                  <a href="blog-single-post.html" class="btn btn__secondary btn__link">
+                    <span>Read More</span>
+                    <i class="icon-arrow-right"></i>
+                  </a>
+                </div><!-- /.blog-content -->
+              </div><!-- /.blog-item -->
+              <!-- Blog Item #5 -->
+              <div class="blog-item">
+                <div class="blog__img">
+                  <a href="#">
+                    <img src="assets/images/blog/grid/5.jpg" alt="blog image">
+                  </a>
+                </div><!-- /.blog-img -->
+                <div class="blog__content">
+                  <div class="blog__meta">
+                    <div class="blog__meta-cat">
+                      <a href="#">Insights</a><a href="#">Industry</a>
+                    </div><!-- /.blog-meta-cat -->
+                  </div><!-- /.blog-meta -->
+                  <h4 class="blog__title"><a href="#">New Additions to our great Metro trucks Fleet</a></h4>
+                  <span class="blog__meta-date">Oct 27, 2017</span>
+                  <p class="blog__desc">These new vehicles are all extra high body trucks, with a carrying height equal
+                    to
+                    that of a semi trailer. This allows us to accommodate our clients with high freight...</p>
+                  <a href="blog-single-post.html" class="btn btn__secondary btn__link">
+                    <span>Read More</span>
+                    <i class="icon-arrow-right"></i>
+                  </a>
+                </div><!-- /.blog-content -->
+              </div><!-- /.blog-item -->
+              <!-- Blog Item #6 -->
+              <div class="blog-item">
+                <div class="blog__img">
+                  <a href="#">
+                    <img src="assets/images/blog/grid/6.jpg" alt="blog image">
+                  </a>
+                </div><!-- /.blog-img -->
+                <div class="blog__content">
+                  <div class="blog__meta">
+                    <div class="blog__meta-cat">
+                      <a href="#">News</a><a href="#">Logistics</a>
+                    </div><!-- /.blog-meta-cat -->
+                  </div><!-- /.blog-meta -->
+                  <h4 class="blog__title"><a href="#">The new Driver Training & Recruitment Program</a></h4>
+                  <span class="blog__meta-date">Oct 24, 2017</span>
+                  <p class="blog__desc">If you know of anyone looking for a bigger opportunity, a fresh start, or just
+                    something different, please have them contact our operations team now...</p>
+                  <a href="blog-single-post.html" class="btn btn__secondary btn__link">
+                    <span>Read More</span>
+                    <i class="icon-arrow-right"></i>
+                  </a>
+                </div><!-- /.blog-content -->
+              </div><!-- /.blog-item -->
+            </div><!-- /.carousel -->
+          </div><!-- /.col-lg-12 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.blog carousel -->
+
+    <!-- ========================= 
+            Google Map
+    =========================  -->
+    <section class="google-map-layout2 p-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 ">
+            <div class="contact-info-carousel">
+              <h5 class="contact__info-title">Locations</h5>
+              <div class="slick-carousel" data-slick='{"slidesToShow": 1, "arrows": true, "dots": false}'>
+                <div class="contact-info-box">
+                  <h4 class="contact__info-box-title">London Office</h4>
+                  <ul class="contact__info-list list-unstyled">
+                    <li>2307 Beverley Rd Brooklyn, New York 11226 United States.</li>
+                    <li>Email: <a href="mailto:Ingelectric@7oroof.com">Ingelectric@7oroof.com</a></li>
+                    <li>Hours: Mon-Fri: 8am – 7pm</li>
+                  </ul><!-- /.contact__info-list -->
+                </div><!-- /.contact-info-box -->
+                <div class="contact-info-box">
+                  <h4 class="contact__info-box-title">Berlin Office</h4>
+                  <ul class="contact__info-list list-unstyled">
+                    <li>2307 Beverley Rd Brooklyn, New York 11226 United States.</li>
+                    <li>Email: <a href="mailto:Ingelectric@7oroof.com">Ingelectric@7oroof.com</a></li>
+                    <li>Hours: Mon-Fri: 8am – 7pm</li>
+                  </ul><!-- /.contact__info-list -->
+                </div><!-- /.contact-info-box -->
+              </div><!-- /.slick-carousel -->
+            </div><!-- /.contact-info-carousel -->
+            <div id="map" style="height: 460px;"></div>
+            <script src="assets/js/google-map.js"></script>
+             <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async
+              defer></script>
+            <!-- CLICK HERE (https://developers.google.com/maps/documentation/embed/get-api-key) TO  LERAN MORE ABOUT GOOGLE MAPS API KEY -->
+          </div><!-- /.col-lg-12 -->
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.GoogleMap -->
 
     <!-- ========================
       Footer
