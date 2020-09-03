@@ -4493,6 +4493,7 @@ textarea.form-control {
 
 .slider-layout2 .slide__title {
   font-size: 75px;
+  text-shadow: 5px 6px 11px black;
 }
 
 .slider-layout2 .info__slider .slick-dots {
