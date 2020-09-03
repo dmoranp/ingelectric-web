@@ -4467,6 +4467,7 @@ textarea.form-control {
   color: #ffffff;
   max-width: 650px;
   margin-bottom: 30px;
+  text-shadow: 4px 4px 6px black;
 }
 
 .slider .btn__lg {
