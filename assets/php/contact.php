@@ -1,15 +1,15 @@
 <?php require("PHPMailer/PHPMailerAutoload.php");
 
 // ADD your Email and Name
-$recipientEmail='your@email';
-$recipientName='your Name';
+$recipientEmail='soportetecnico@ingelectric.ec';
+$recipientName='Ingelectric';
 
 //collect the posted variables into local variables before calling $mail = new mailer
 
 $senderName = $_POST['contact-name'];
 $senderPhone = $_POST['contact-phone'];
 $senderMessage= $_POST['contact-message'];
-$senderSubject = 'New Message From ' . $senderName;
+$senderSubject = 'Nuevo mensaje de ' . $senderName;
 
 //Create a new PHPMailer instance
 $mail = new PHPMailer();
