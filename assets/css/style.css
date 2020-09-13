@@ -8178,6 +8178,19 @@ textarea.form-control {
   height: 50%;
 }
 
+.contact__number__footer, .contact__number__footer > i, .contact__number__footer > a {
+  color: white!important;
+}
+
+.contact__number__footer{
+  display: inline-flex;
+}
+
+.contact__number__footer > i {
+  border: 2px solid #f8f9fa!important;
+}
+
+
 @media (min-width: 992px) {
   .services-layout2 {
     padding-bottom: 160px;
@@ -8219,4 +8232,13 @@ textarea.form-control {
   .service-item .service__icon i {
     font-size: 45px;
   }
+
+  .footer__widget-about .footer-container-logo {
+    text-align: center;
+  }
+
+  .footer__widget-about .footer-container-logo img{
+    max-height: 50px;
+  }
+
 }
