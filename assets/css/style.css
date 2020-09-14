@@ -4460,10 +4460,10 @@ textarea.form-control {
 }
 
 .slider .slide__desc {
-  font-size: 18px;
+  font-size: 24px;
   line-height: 1.5;
   font-weight: 700;
-  color: #ffffff;
+  color: #ffc107;
   max-width: 650px;
   margin-bottom: 30px;
 }
