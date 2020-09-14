@@ -77,11 +77,11 @@
                 <a href="/nosotros" class="dropdown-toggle nav__item-link">Nosotros</a>
               </li><!-- /.nav-item -->
               <li class="nav__item with-dropdown">
-                <a href="services.html" class="dropdown-toggle nav__item-link">Servicios</a>
+                <a href="/servicios/" class="dropdown-toggle nav__item-link">Servicios</a>
                 <i class="fa fa-angle-down" data-toggle="dropdown"></i>
               </li><!-- /.nav-item -->
               <li class="nav__item with-dropdown">
-                <a href="projects-grid.html" class="dropdown-toggle nav__item-link">Productos</a>
+                <a href="#" class="dropdown-toggle nav__item-link">Productos</a>
               </li><!-- /.nav-item -->
               <li class="nav__item">
                 <a href="/contacto" class="nav__item-link">Contacto</a>
@@ -106,7 +106,7 @@
                 <div class="slide__content">
                   <h2 class="slide__title">Ingeniería Eléctrica, Electrónica y Mecánica</h2>
                   <p class="slide__desc">Mantenimiento preventivo y correctivo de grupos electrógenos</p>
-                  <a href="services.html" class="btn btn__white btn__icon btn__lg mr-30">
+                  <a href="/servicios/" class="btn btn__white btn__icon btn__lg mr-30">
                     <span>Nuestros servicios</span><i class="icon-arrow-right"></i>
                   </a>
                   <a class="video__btn popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
@@ -130,7 +130,7 @@
                 <div class="slide__content">
                   <h2 class="slide__title">Grupos Electrógenos Ingelectric</h2>
                   <p class="slide__desc">Especializados en Reparación y Mantenimiento de cualquier generador eléctrico</p>
-                  <a href="services.html" class="btn btn__white btn__icon btn__lg mr-30">
+                  <a href="/servicios/" class="btn btn__white btn__icon btn__lg mr-30">
                     <span>Nuestros servicios</span><i class="icon-arrow-right"></i>
                   </a>
                   <a class="video__btn popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
@@ -154,7 +154,7 @@
                 <div class="slide__content">
                   <h2 class="slide__title">10 años de experiencia en el sector</h2>
                   <p class="slide__desc">En Ingelectric sabemos de la importancia de realizar un correcto y periódico mantenimiento preventivo de su grupo electrógeno.</p>
-                  <a href="services.html" class="btn btn__white btn__icon btn__lg mr-30">
+                  <a href="/servicios/" class="btn btn__white btn__icon btn__lg mr-30">
                     <span>Nuestros servicios</span><i class="icon-arrow-right"></i>
                   </a>
                   <a class="video__btn popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
@@ -207,7 +207,7 @@
           </div><!-- /.col-xl-7 -->
           <div class="imgs-block mt-50">
             <div class="about__img">
-              <img src="assets/images/about/2.png" alt="about" class="img-fluid w-100">
+              <img src="assets/images/about/3.png" alt="about" class="img-fluid w-100">
             </div><!-- /.about-img -->
             <div class="video__box">
               <a class="video__btn video__btn-white popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
@@ -420,9 +420,9 @@
     </section><!-- /.contact layout 3 -->
 
     <!-- =========================== 
-      portfolio Grid 
+      portfolio standard carousel
     ============================= -->
-    <section class="portfolio-grid pb-70">
+    <section class="portfolio-standard portfolio-standard-carousel pt-120 pb-60">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
@@ -433,51 +433,110 @@
           </div><!-- /.col-lg-6 -->
         </div><!-- /.row -->
         <div class="row">
-          <!-- portfolio item #1 -->
-          <div class="col-sm-6 col-md-6 col-lg-4">
-            <div class="portfolio-item">
-              <div class="portfolio__img">
-                <img src="assets/images/portfolio/grid/1.jpg" alt="portfolio img">
-              </div><!-- /.portfolio-img -->
-              <div class="portfolio__content">
-                <h4 class="portfolio__title"><a href="#">The Fallingwater House</a></h4>
-                <div class="portfolio__cat">
-                  <a href="#">Building</a><a href="#">Interior</a>
-                </div><!-- /.portfolio-cat -->
-              </div><!-- /.portfolio-content -->
-            </div><!-- /.portfolio-item -->
-          </div><!-- /.col-lg-4 -->
-          <!-- portfolio item #2 -->
-          <div class="col-sm-6 col-md-6 col-lg-4">
-            <div class="portfolio-item">
-              <div class="portfolio__img">
-                <img src="assets/images/portfolio/grid/2.jpg" alt="portfolio img">
-              </div><!-- /.portfolio-img -->
-              <div class="portfolio__content">
-                <h4 class="portfolio__title"><a href="#">The Guggenheim Museum</a></h4>
-                <div class="portfolio__cat">
-                  <a href="#">Construction</a><a href="#">Engineering</a>
-                </div><!-- /.portfolio-cat -->
-              </div><!-- /.portfolio-content -->
-            </div><!-- /.portfolio-item -->
-          </div><!-- /.col-lg-4 -->
-          <!-- portfolio item #3 -->
-          <div class="col-sm-6 col-md-6 col-lg-4">
-            <div class="portfolio-item">
-              <div class="portfolio__img">
-                <img src="assets/images/portfolio/grid/3.jpg" alt="portfolio img">
-              </div><!-- /.portfolio-img -->
-              <div class="portfolio__content">
-                <h4 class="portfolio__title"><a href="#">Neue National Galerie</a></h4>
-                <div class="portfolio__cat">
-                  <a href="#">Renovation</a><a href="#">Architecture</a>
-                </div><!-- /.portfolio-cat -->
-              </div><!-- /.portfolio-content -->
-            </div><!-- /.portfolio-item -->
-          </div><!-- /.col-lg-4 -->
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <div class="slick-carousel"
+              data-slick='{"slidesToShow": 3, "slidesToScroll": 1, "arrows": false, "dots": true, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 2}}, {"breakpoint": 767, "settings": {"slidesToShow": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 1}}]}'>
+              <!-- portfolio item #1 -->
+              <div class="portfolio-item">
+                <div class="portfolio__img">
+                  <img src="assets/images/portfolio/grid/1.jpg" alt="portfolio img">
+                </div><!-- /.portfolio-img -->
+                <div class="portfolio__content">
+                  <h4 class="portfolio__title"><a href="#">The Fallingwater House</a></h4>
+                  <div class="portfolio__cat">
+                    <a href="#">Building</a><a href="#">Interior</a>
+                  </div><!-- /.portfolio-cat -->
+                  <p class="portfolio__desc">We understand that data is greatest asset when it comes to analyzing and
+                    optimizing your supply chain performance.</p>
+                  <a href="projects-single-project.html" class="btn btn__loadMore"><span>Explore More</span><i
+                      class="icon-arrow-right"></i></a>
+                </div><!-- /.portfolio-content -->
+              </div><!-- /.portfolio-item -->
+              <!-- portfolio item #2 -->
+              <div class="portfolio-item">
+                <div class="portfolio__img">
+                  <img src="assets/images/portfolio/grid/2.jpg" alt="portfolio img">
+                </div><!-- /.portfolio-img -->
+                <div class="portfolio__content">
+                  <h4 class="portfolio__title"><a href="#">The Guggenheim Museum</a></h4>
+                  <div class="portfolio__cat">
+                    <a href="#">Construction</a><a href="#">Engineering</a>
+                  </div><!-- /.portfolio-cat -->
+                  <p class="portfolio__desc">Cost savings is crucial, innovative technology minimizes your overall spend
+                    by utilizing an extensive consolidation.</p>
+                  <a href="projects-single-project.html" class="btn btn__loadMore"><span>Explore More</span><i
+                      class="icon-arrow-right"></i></a>
+                </div><!-- /.portfolio-content -->
+              </div><!-- /.portfolio-item -->
+              <!-- portfolio item #3 -->
+              <div class="portfolio-item">
+                <div class="portfolio__img">
+                  <img src="assets/images/portfolio/grid/3.jpg" alt="portfolio img">
+                </div><!-- /.portfolio-img -->
+                <div class="portfolio__content">
+                  <h4 class="portfolio__title"><a href="#">Neue National Galerie</a></h4>
+                  <div class="portfolio__cat">
+                    <a href="#">Renovation</a><a href="#">Architecture</a>
+                  </div><!-- /.portfolio-cat -->
+                  <p class="portfolio__desc">Our Group has been building relationships and projects last. Serving an
+                    impressive list of long-term clients with experience.</p>
+                  <a href="projects-single-project.html" class="btn btn__loadMore"><span>Explore More</span><i
+                      class="icon-arrow-right"></i></a>
+                </div><!-- /.portfolio-content -->
+              </div><!-- /.portfolio-item -->
+              <!-- portfolio item #4 -->
+              <div class="portfolio-item">
+                <div class="portfolio__img">
+                  <img src="assets/images/portfolio/grid/4.jpg" alt="portfolio img">
+                </div><!-- /.portfolio-img -->
+                <div class="portfolio__content">
+                  <h4 class="portfolio__title"><a href="#">Sagrada Familia</a></h4>
+                  <div class="portfolio__cat">
+                    <a href="#">Construstion</a><a href="#">Cuilding</a>
+                  </div><!-- /.portfolio-cat -->
+                  <p class="portfolio__desc">Cost savings is crucial, innovative technology minimizes your overall spend
+                    by utilizing an extensive consolidation.</p>
+                  <a href="projects-single-project.html" class="btn btn__loadMore"><span>Explore More</span><i
+                      class="icon-arrow-right"></i></a>
+                </div><!-- /.portfolio-content -->
+              </div><!-- /.portfolio-item -->
+              <!-- portfolio item #5 -->
+              <div class="portfolio-item">
+                <div class="portfolio__img">
+                  <img src="assets/images/portfolio/grid/5.jpg" alt="portfolio img">
+                </div><!-- /.portfolio-img -->
+                <div class="portfolio__content">
+                  <h4 class="portfolio__title"><a href="#">Heydar Aliyev Center</a></h4>
+                  <div class="portfolio__cat">
+                    <a href="#">Engineering</a><a href="#">Renovation</a>
+                  </div><!-- /.portfolio-cat -->
+                  <p class="portfolio__desc">Our Group has been building relationships and projects last. Serving an
+                    impressive list of long-term clients with experience.</p>
+                  <a href="projects-single-project.html" class="btn btn__loadMore"><span>Explore More</span><i
+                      class="icon-arrow-right"></i></a>
+                </div><!-- /.portfolio-content -->
+              </div><!-- /.portfolio-item -->
+              <!-- portfolio item #6 -->
+              <div class="portfolio-item">
+                <div class="portfolio__img">
+                  <img src="assets/images/portfolio/grid/6.jpg" alt="portfolio img">
+                </div><!-- /.portfolio-img -->
+                <div class="portfolio__content">
+                  <h4 class="portfolio__title"><a href="#">Cathedral of Brasilia</a></h4>
+                  <div class="portfolio__cat">
+                    <a href="#">Building</a><a href="#">Modern</a>
+                  </div><!-- /.portfolio-cat -->
+                  <p class="portfolio__desc">We understand that data is greatest asset when it comes to analyzing and
+                    optimizing your supply chain performance.</p>
+                  <a href="projects-single-project.html" class="btn btn__loadMore"><span>Explore More</span><i
+                      class="icon-arrow-right"></i></a>
+                </div><!-- /.portfolio-content -->
+              </div><!-- /.portfolio-item -->
+            </div><!-- /.slick-carousel -->
+          </div><!-- /.col-lg-12 -->
         </div><!-- /.row -->
       </div><!-- /.container -->
-    </section><!-- /.portfolio Grid -->
+    </section><!-- /.portfolio standard carousel -->
 
     <!-- =========================
        Banner layout 1
@@ -548,67 +607,67 @@
             <div class="slick-carousel"
               data-slick='{"slidesToShow": 6, "arrows": false, "dots": false, "autoplay": true,"autoplaySpeed": 2000, "infinite": true, "responsive": [ {"breakpoint": 992, "settings": {"slidesToShow": 4}}, {"breakpoint": 767, "settings": {"slidesToShow": 3}}, {"breakpoint": 480, "settings": {"slidesToShow": 2}}]}'>
               <div class="client">
-                <a href="#"><img src="assets/images/clients/1.png" alt="client"></a>
+                <a href="#"><img src="assets/images/brands/1.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/2.png" alt="client"></a>
+                <a href="#"><img src="assets/images/brands/2.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/3.png" alt="client"></a>
+                <a href="#"><img src="assets/images/brands/3.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/4.png" alt="client"></a>
+                <a href="#"><img src="assets/images/brands/4.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/5.png" alt="client"></a>
+                <a href="#"><img src="assets/images/brands/5.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/6.png" alt="client"></a>
+                <a href="#"><img src="assets/images/brands/6.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/7.png" alt="client"></a>
+                <a href="#"><img src="assets/images/brands/7.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/8.png" alt="client"></a>
+                <a href="#"><img src="assets/images/brands/8.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/9.png" alt="client"></a>
+                <a href="#"><img src="assets/images/brands/9.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/10.png" alt="client"></a>
+                <a href="#"><img src="assets/images/brands/10.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/11.png" alt="client"></a>
+                <a href="#"><img src="assets/images/brands/11.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/12.png" alt="client"></a>
+                <a href="#"><img src="assets/images/brands/12.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/13.png" alt="client"></a>
+                <a href="#"><img src="assets/images/brands/13.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/14.png" alt="client"></a>
+                <a href="#"><img src="assets/images/brands/14.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/15.png" alt="client"></a>
+                <a href="#"><img src="assets/images/brands/15.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/16.png" alt="client"></a>
+                <a href="#"><img src="assets/images/brands/16.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/17.png" alt="client"></a>
+                <a href="#"><img src="assets/images/brands/17.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/18.png" alt="client"></a>
+                <a href="#"><img src="assets/images/brands/18.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/19.png" alt="client"></a>
+                <a href="#"><img src="assets/images/brands/19.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/20.png" alt="client"></a>
+                <a href="#"><img src="assets/images/brands/20.png" alt="client"></a>
               </div><!-- /.client -->
               <div class="client">
-                <a href="#"><img src="assets/images/clients/21.png" alt="client"></a>
+                <a href="#"><img src="assets/images/brands/21.png" alt="client"></a>
               </div><!-- /.client -->
             </div><!-- /.carousel -->
           </div><!-- /.col-lg-12 -->
